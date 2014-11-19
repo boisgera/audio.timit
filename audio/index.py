@@ -6,6 +6,16 @@ Acoustic-Phonetic Index
 This module provides a search-oriented interface to the [NLTK/TIMIT][] database.
 
 [NLTK/TIMIT]: http://nltk.org/api/nltk.corpus.reader.html#timit-module
+
+    >>> from audio.index import *
+    >>> utterances = search(type=Utterance)
+    >>> utterances # doctest: +ELLIPSIS
+        0. a crab challenged me but a quick stab vanquished him
+        1. a screwdriver is made from vodka and orange juice
+      ...
+      158. would a tomboy often play outdoors
+      159. you always come up with pathological examples
+    <BLANKLINE>
 """
 
 # Python 2.7 Standard Library
