@@ -26,7 +26,7 @@ try:
 except ImportError:
     error = """NLTK not found. Install it with
 
-    pip install ntlk
+    pip install nltk
 
 then perform the installation of the TIMIT corpus with:
 
