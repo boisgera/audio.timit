@@ -69,7 +69,7 @@ info = dict(
   metadata     = about.get_metadata(about_index),
   code         = dict(packages=setuptools.find_packages()),
   data         = {},
-  requirements = dict(install_requires=["audio.bitstream, nltk"]),
+  requirements = dict(install_requires=["audio.bitstream", "nltk"]),
   scripts      = {},
   plugins      = {},
   tests        = dict(test_suite="test.suite"),
