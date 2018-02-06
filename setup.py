@@ -35,16 +35,16 @@ def srcdir(path):
 #    python -c "import nltk; nltk.download('timit')"
 #"""
 #    raise ImportError(error)
-
-try:
-    from nltk.corpus import timit
-    _ = timit.words
-except LookupError:
-    error = """TIMIT corpus not found. Install it with
-
-    python -c "import nltk; nltk.download('timit')"
-"""
-    raise ImportError(error)
+#
+#try:
+#    from nltk.corpus import timit
+#    _ = timit.words
+#except LookupError:
+#    error = """TIMIT corpus not found. Install it with
+#
+#    python -c "import nltk; nltk.download('timit')"
+#"""
+#    raise ImportError(error)
 
 # Extra Third-Party Libraries
 sys.path.insert(1, srcdir(".lib"))
