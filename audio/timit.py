@@ -7,7 +7,7 @@ This module provides a search-oriented interface to the [NLTK/TIMIT][] database.
 
 [NLTK/TIMIT]: http://nltk.org/api/nltk.corpus.reader.html#timit-module
 
-    >>> from audio.index import *
+    >>> from audio.timit import *
     >>> utterances = search(type=Utterance)
     >>> utterances # doctest: +ELLIPSIS
         0. a crab challenged me but a quick stab vanquished him
@@ -33,7 +33,7 @@ from audio.bitstream import BitStream
 # ------------------------------------------------------------------------------
 #
 
-from .about_index import *
+from .about_timit import *
 
 #
 # Index Search

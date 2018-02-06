@@ -20,32 +20,6 @@ except ImportError:
 def srcdir(path):
     return os.path.join(os.path.dirname(__file__), path)
 
-# UPDATE: now TIMIT is actually included (?)
-# ------------------------------------------------------------------------------
-# NLTK (the TIMIT corpus is not installable via Pypi)
-#try:
-#    import nltk
-#except ImportError:
-#    error = """NLTK not found. Install it with
-#
-#    pip install nltk
-#
-#then perform the installation of the TIMIT corpus with:
-#
-#    python -c "import nltk; nltk.download('timit')"
-#"""
-#    raise ImportError(error)
-#
-#try:
-#    from nltk.corpus import timit
-#    _ = timit.words
-#except LookupError:
-#    error = """TIMIT corpus not found. Install it with
-#
-#    python -c "import nltk; nltk.download('timit')"
-#"""
-#    raise ImportError(error)
-
 # Extra Third-Party Libraries
 sys.path.insert(1, srcdir(".lib"))
 try:
@@ -63,10 +37,10 @@ import about
 
 # This Package
 sys.path.insert(1, srcdir("audio"))
-import about_index
+import about_timit
 
 info = dict(
-  metadata     = about.get_metadata(about_index),
+  metadata     = about.get_metadata(about_timit),
   code         = dict(packages=setuptools.find_packages()),
   data         = {},
   requirements = dict(install_requires=["audio.bitstream", "nltk"]),

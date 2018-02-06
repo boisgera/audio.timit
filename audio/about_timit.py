@@ -1,8 +1,8 @@
 # coding: utf-8
 
 metadata = dict(
-  __name__        = "audio.index",
-  __version__     = "1.0.4",
+  __name__        = "audio.timit",
+  __version__     = "0.1",
   __license__     = "MIT License",  
   __author__      = u"Sébastien Boisgérault <Sebastien.Boisgerault@mines-paristech.fr>",
   __url__         = None,
