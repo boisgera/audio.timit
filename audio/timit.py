@@ -68,8 +68,8 @@ class Item(list):
 
     An item has the following attributes:
 
-      - `name:` sequence of letters that represents the item ; for phones,
-        the TIMITBET symbols are used.
+      - `name:` sequence of letters that represents the item ; 
+        for phones, the TIMITBET symbols are used.
 
       - `uid:` the TIMIT identifier of the utterance it belongs to,
   
