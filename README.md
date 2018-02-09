@@ -18,7 +18,7 @@ TODO
     files into an HTML embedded audio, the files need to be accessible ...
 
     Do we need to tweak the `Audio` component?  
-    See <https://github.com/ipython/ipython/blob/db2a0da26a0a3f9c6720378a9931db9d2eddaa0b/IPython/lib/display.py>
+    See <https://github.com/ipython/ipython/blob/master/IPython/lib/display.py>
 
   - think more about the UX (search stuff, get you hand on the data, 
     "extract" it / bound it to variables, etc.)
