@@ -19,6 +19,10 @@ Misc. Notes
 
     <http://academictorrents.com/details/34e2b78745138186976cbc27939b1b34d18bd5b3>
 
+    Nota: Orginal source <https://catalog.ldc.upenn.edu/ldc93s1>: 
+    the use of TIMIT database is subject to a LDC user agreement: 
+    <https://catalog.ldc.upenn.edu/license/ldc-non-members-agreement.pdf>
+
   - TIMIT documentation (with the CD-ROM):
 
     <http://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir4930.pdf>
