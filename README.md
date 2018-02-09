@@ -13,9 +13,12 @@ TODO
   - get a rich representation for search results, 
     alongside the textual one.
 
-  - use the existing `.wav` files and the [Media Fragments URI] syntax
-    to display players for fragments too. Arf, if we refer to the wav
-    files into an HTML embedded audio, the files need to be accessible ...
+  - use the existing `.wav` files and the Media Fragments URI API
+    to display players for fragments too. 
+
+    Arf, if we refer to the wav files into an HTML embedded audio, 
+    the files need to be accessible ... And if instead we base64 & embed
+    them, we can't do it for ALL fragment, it needs to be on demand ...
 
     Do we need to tweak the `Audio` component?  
     See <https://github.com/ipython/ipython/blob/master/IPython/lib/display.py>
