@@ -6,10 +6,22 @@ TODO
 
   - read NLTK code
 
-  - have a look at how HTML+CSS rich display work in Jupyter
+  - have a look at how HTML+CSS rich display work in Jupyter.
+    Javascript required for a full-fledged search? Limitations?
+    (Trusted mode, etc.)
 
   - get a rich representation for search results, 
     alongside the textual one.
+
+  - use the existing `.wav` files and the [Media Fragments URI] syntax
+    to display players for fragments too. Arf, if we refer to the wav
+    files into an HTML embedded audio, the files need to be accessible ...
+
+    Do we need to tweak the `Audio` component?  
+    See <https://github.com/ipython/ipython/blob/db2a0da26a0a3f9c6720378a9931db9d2eddaa0b/IPython/lib/display.py>
+
+  - think more about the UX (search stuff, get you hand on the data, 
+    "extract" it / bound it to variables, etc.)
 
 
 Misc. Notes

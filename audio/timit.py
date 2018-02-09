@@ -19,6 +19,7 @@ This module provides a search-oriented interface to the [NLTK/TIMIT][] database.
 """
 
 # Python 2.7 Standard Library
+from __future__ import division
 import __builtin__
 
 # Third-Party Librairies
@@ -173,4 +174,12 @@ def _create_index(uids=None):
     return index
 
 _index = None
+
+# Sandbox
+
+class JT(object):
+    def _repr_html_(self):
+        return u"<h1>Stuff</h1>"
+
+jt = JT()
 
