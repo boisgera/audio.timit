@@ -14,7 +14,8 @@ TODO
     alongside the textual one.
 
   - use the existing `.wav` files and the Media Fragments URI API
-    to display players for fragments too. 
+    to display players for fragments too. Except that this API is
+    supported by noone.
 
     Arf, if we refer to the wav files into an HTML embedded audio, 
     the files need to be accessible ... And if instead we base64 & embed
